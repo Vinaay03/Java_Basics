@@ -1,17 +1,13 @@
 import java.util.*;
 public class main{
     public static void main(String[] args){
-        Scanner sc = new Scanner(System.in);
-        String str = sc.next();
-        for(int i=0;i<str.length();i++){
-            if(str.charAt(i)=='a' || str.charAt(i)=='e' ||str.charAt(i)=='i' ||str.charAt(i)=='o' ||str.charAt(i)=='u'){
-                System.out.print(str.charAt(i));
-
-            }
-        }
-        int a = 10;
-        int b = 20;
-        int c = 30;
-        System.out.println(a+b+c);
+       Scanner sc = new Scanner(System.in);
+       int num = sc.nextInt();
+       if(num%2==0){
+        System.out.println("Even");
+       }
+       else{
+        System.out.println("odd");
+       }
     }
 }

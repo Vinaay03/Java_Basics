@@ -1,13 +1,10 @@
 import java.util.*;
 public class main{
-    public static void main(String[] args){
-       Scanner sc = new Scanner(System.in);
-       int num = sc.nextInt();
-       if(num%2==0){
-        System.out.println("Even");
-       }
-       else{
-        System.out.println("odd");
-       }
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        double rupees = sc.nextDouble();
+        double exchangeRate  = 83.0;
+        double dollars = rupees/exchangeRate;
+        System.out.println(dollars);
     }
 }

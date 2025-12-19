@@ -11,5 +11,6 @@ public class fib{
             a = b;
             b = c;
         }
+        sc.close();
     }
 }

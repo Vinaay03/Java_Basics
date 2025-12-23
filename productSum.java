@@ -1,3 +1,4 @@
+//Subtract the product and sum of digits of an integer
 import java.util.*;
 public class productSum {
     public static void main(String[] args) {
